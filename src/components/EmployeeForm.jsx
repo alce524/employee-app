@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./EmployeeForm.css";
 
 export default function EmployeeForm({ addEmployee }) {
   const [formData, setFormData] = useState({
@@ -33,7 +34,7 @@ export default function EmployeeForm({ addEmployee }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="employee-form" onSubmit={handleSubmit}>
       <h2>Ajouter un employé</h2>
 
       <input
