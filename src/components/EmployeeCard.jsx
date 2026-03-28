@@ -1,3 +1,5 @@
+
+import "./EmployeeCard.css";
 export default function EmployeeCard({ employee }) {
   return (
     <div className="card">

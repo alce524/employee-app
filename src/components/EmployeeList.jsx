@@ -1,4 +1,5 @@
 import EmployeeCard from "./EmployeeCard";
+import "./EmployeeList.css";
 
 export default function EmployeeList({ employees }) {
   return (

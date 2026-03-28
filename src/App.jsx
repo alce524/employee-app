@@ -1,6 +1,5 @@
 import { useState } from "react";
-import EmployeeList from "./components/EmployeeList";
-import EmployeeForm from "./components/EmployeeForm";
+import EmployeeList from "./components/EmployeeList";import EmployeeForm from "./components/EmployeeForm";
 
 function App() {
   const [employees, setEmployees] = useState([
@@ -34,7 +33,7 @@ function App() {
     <div>
       <h1>Gestion des Employés</h1>
 
-      { <EmployeeForm addEmployee={addEmployee} />}
+      {<EmployeeForm addEmployee={addEmployee} /> }
       <EmployeeList employees={employees} />
     </div>
   );
