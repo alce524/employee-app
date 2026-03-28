@@ -29,6 +29,7 @@
   overflow: hidden;
   max-width: 400px;
   margin: 0 auto;
+  margin-bottom: 20px;
 }
 
 .card::before {
